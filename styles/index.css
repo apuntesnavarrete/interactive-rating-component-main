@@ -9,6 +9,34 @@
 --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
 body{
+    height: 100vh;
     font-size: 1rem;
     font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--White);
+}
+.main{
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding: 30px;
+    width: 75%;
+    background-color: var(--Dark-Blue);
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.card_icon{
+    background-color: var(--Medium-Grey);
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-active{
+    display: none;
 }

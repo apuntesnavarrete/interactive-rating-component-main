@@ -14,34 +14,75 @@
 </head>
 <body>
 
-  <!-- Rating state start -->
+  <main class="main">
 
-  How did we do?
+    <!-- Rating state start -->
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
 
-  1 2 3 4 5
+    <section class="card">
+      <img src="images/icon-star.svg" class="card_icon" alt="star">
+      <h1 class="card_title">How did we do?</h1>
+      <form>
+        <p class="card_description"></p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+        <p>
+        <div>
+          <input type="radio" id="contactChoice1"
+           name="contact" value="email">
+          <label for="contactChoice1">1</label>
+      
+          <input type="radio" id="contactChoice2"
+           name="contact" value="phone">
+          <label for="contactChoice2">2</label>
+      
+          <input type="radio" id="contactChoice3"
+           name="contact" value="mail">
+          <label for="contactChoice3">3</label>
 
-  Submit
+          <input type="radio" id="contactChoice3"
+           name="contact" value="mail">
+          <label for="contactChoice3">4</label>
 
+          <input type="radio" id="contactChoice3"
+           name="contact" value="mail">
+          <label for="contactChoice3">5</label>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      </section>      
   <!-- Rating state end -->
-
+    
   <!-- Thank you state start -->
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
+    </section>
+    <section class="card-active">
+      <div class="card-active_select">      You selected <!-- Add rating here --> out of 5
+      </div>
+      <div class="card-active_thanks">  Thank you!
+      </div>
+      <div class="card-active_description">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
   don’t hesitate to get in touch!
+      </div>
+  
 
-  <!-- Thank you state end -->
+
+    </section>
+
+ <!-- Thank you state end -->
+
+  </main>
+ 
+
+
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+
+  
+  
 </body>
 </html>
