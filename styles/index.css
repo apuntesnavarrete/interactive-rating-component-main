@@ -4,6 +4,7 @@
 
 --White: hsl(0, 0%, 100%) ;
 --Light-Grey: hsl(217, 12%, 63%);
+--grey-dark: hsl(214, 9%, 32%);
 --Medium-Grey: hsl(216, 12%, 54%);
 --Dark-Blue: hsl(213, 19%, 18%);
 --Very-Dark-Blue: hsl(216, 12%, 8%);
@@ -34,7 +35,7 @@ body{
 
 }
 .card_icon{
-    background-color: hsl(214, 9%, 32%);
+    background-color: var(--grey-dark);
     ;
     border-radius: 50%;
     padding:11px 10px 11px  10px;
@@ -93,4 +94,31 @@ input[type="radio"]:checked + label {
     background-color: var(--Dark-Blue);
     border: 1px solid black;
     border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-active_img{
+    width: 100px;
+}
+.card-active_select{
+    padding: 6px 7px 4px 7px;
+    font-size: 0.8rem;
+    margin: 30px 0;
+    width: 200px;
+    background-color: var(--grey-dark);
+    color: var(--Orange);
+    border-radius: 50px;
+}
+
+.card-active_thanks{
+    font-size: 1.2rem;
+}
+.card-active_description{
+    font-size: 0.8rem;
+    margin: 10px 0;
+    color: var(--Light-Grey);
+    width: 287px;
 }
