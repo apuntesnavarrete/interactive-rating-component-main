@@ -169,14 +169,10 @@ input[type="radio"]:checked + label {
     font-size: 2rem;
     width: 542px;
   }
-
-  
-
 }
-@media only screen and (max-width:900px) and (orientation: landscape) {
-
-    body{
-        overflow: scroll;
-        height: 120vh;
-    }
- }
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+  body {
+    overflow: scroll;
+    height: 120vh;
+  }
+}
