@@ -38,8 +38,8 @@ body {
   border-radius: 50%;
   padding: 11px 10px 11px 10px;
 }
-.card_description{
-    color: var(--Light-Grey);
+.card_description {
+  color: var(--Light-Grey);
 }
 
 .content-radio {
@@ -134,8 +134,8 @@ input[type="radio"]:checked + label {
     padding: 70px;
     border-radius: 60px;
   }
-  .card_icon{
-      width: 35px;
+  .card_icon {
+    width: 35px;
   }
   .button {
     height: 80px;
@@ -169,4 +169,13 @@ input[type="radio"]:checked + label {
     font-size: 2rem;
     width: 542px;
   }
+
+  
+
 }
+@media (max-width: 700px) and (orientation: landscape) {
+
+    body{
+        height: 110vh;
+    }
+ }
