@@ -5,7 +5,7 @@ let number = document.getElementsByClassName("number")[0];
 
 let select = 0;
 
-function holi() {
+function checked() {
   if (document.getElementById("option_one").checked) {
     select = 1;
   }
@@ -27,7 +27,7 @@ function holi() {
 
 button.addEventListener("click", (e) => {
   e.preventDefault();
-  holi();
+  checked();
   number.innerHTML = select;
   card.style.display = "none";
   card_Active.style.display = "flex";
