@@ -124,3 +124,24 @@ input[type="radio"]:checked + label {
     color: var(--Light-Grey);
     width: 287px;
 }
+
+@media (min-width: 1000px) {
+    body{
+        font-size: 2rem;
+    }
+    .main{
+        max-width: 800px;
+    }
+    .card{
+        padding: 70px;
+    }
+    .button{
+        height: 70px;
+    }
+    .label{
+       padding: 24px 31px 15px 27px;
+    }
+    .label_one{
+        padding: 24px 30px 15px 32px
+    }
+  }
