@@ -57,6 +57,7 @@ label {
   background-color: var(--Medium-Grey);
   padding: 14px 15px 10px 16px;
   border-radius: 50%;
+  transition: all 1s;
 }
 
 .label_one {
@@ -83,6 +84,7 @@ input[type="radio"]:checked + label {
   border: none;
   font-weight: 700;
   letter-spacing: 3px;
+  transition: all 0.5s;
 }
 .button:hover {
   background-color: var(--White);
